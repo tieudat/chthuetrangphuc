@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.row{
+  display: block;
+  height: 100%;
+}
+.col-1{
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  height: 100%;
+  float: left;
+  
+}
+.form-wap{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.form-wapper{
+  width: 50%;
+  
+}
+
+.form{
+  background-color: white;
+  padding: 16px;
+  margin: 15px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0, 0, 0.35) 0px 5px 15px;
+}
+.input-group{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.input-group input{
+  width: 100%;
+  padding: 12px 40px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+}
+.input-group input:focus{
+  border:1px solid #57b894;
+}
+.input-group i{
+  position: absolute;
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: gray;
+  left: 10px;
+}
+/* .fa-eye-slash{
+ left: 50px !important;
+} */
+.fa-eye{
+  left: 320px !important;
+  cursor: pointer;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form button{
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #57b894;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+}
+.form button:hover{
+  border: 1px solid #57b894;
+  background-color: transparent;
+  /* animation: lost 4s ease-in; */
+}
+.form p{
+  font-size: 1rem;
+}
+/* @keyframes lost{
+  0% {
+    transform: translateX(0);
+    background-color: transparent;
+  }
+  25%{
+    transform: translateX(100%);
+    background-color: #57b894;
+  }
+} */

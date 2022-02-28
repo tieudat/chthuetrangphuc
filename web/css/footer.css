@@ -1,0 +1,414 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2021, 10:43:47 AM
+    Author     : admin
+*/
+.footer{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+.footer::after{
+    height: 1px;
+    color: #000;
+    width: 100%;
+}
+.footer_top{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.footer_top-contact{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.footer_top-contact{
+    background-image: url("img-about/bg_footer.jpg");
+}
+.footer_top-contact{
+    position: relative;
+    padding: 60px 0 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center !important;
+}
+.content_footer-contact{
+    padding: 0 115px;
+}
+.letter-left{
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 40px;
+}
+.letter-left h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: .01rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.letter-left span{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+}
+.content_footer-contact form{
+    margin: 0px;
+    margin-top: 5px;
+}
+.input-group{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+.input-group{
+    display: table;
+    border-collapse: separate;
+}
+.input-group .form-control{
+    display: table-cell;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    outline: none;
+}
+.input-group .form-control:first-child{
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.input-group input{
+    box-shadow: none;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    height: 50px;
+    background: #fff;
+    color: #333;
+    padding: 0 20px;
+    position: relative;
+}
+.input-group-btn{
+    position: relative;
+    white-space: nowrap;
+    width: 1%;
+    padding:0;
+}
+.input-group-btn{
+    display: table-cell;
+    vertical-align: middle;
+    margin:0;
+    font-size: 0;
+}
+.input-group-btn>.btn{
+    position: relative;
+}
+.input-group-btn .btn{
+    font-weight: 400;
+    box-shadow: none;
+    height: 50px;
+    background-color: #f72b3f;
+    font-size:15px;
+    color: #fff;
+    padding: 0 55px;
+    text-transform: none;
+    line-height: 50px;
+    outline: none;
+    border-collapse: separate;
+    border: 1px solid transparent;
+}
+.input-group-btn .btn:first-child{
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.footer-col-1{
+    width: 33.3%;
+    float: left;
+    display: block;
+}
+.footer-col-1{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.widget-ft{
+    margin-bottom: 20px;
+}
+.title-menu{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: #252525;
+    font-weight: 500;
+}
+.title-menu a{
+    cursor: default;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+    position: relative;
+    margin-left: 0px;
+    text-decoration: none;
+}
+footer.footer .list-menu{
+    line-height: 35px;
+    padding: 0;
+}
+footer.footer .widget-ft{
+    margin-bottom: 20px;
+}
+.title-menu4{
+    text-align: left;
+    position: relative;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.mid-footer .contact_x{
+    padding:0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+footer.footer ul.contact.contact_x li{
+    color: #acacac;
+    margin-bottom: 0px !important;
+    line-height: 25px;
+    position: relative;
+}
+footer.footer ul.contact.contact_x li a{
+    color: #acacac;
+}
+.footer-col-2{
+    width: 41.6%;
+    display: block;
+    float: left;
+}
+.footer-col-2{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2-6{
+    width: 50%;
+    display: block;
+    float: left;
+}
+.li_menu a{
+    color: #acacac;
+}
+.footer-col-3{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.bocongthuong img{
+    border: 0 none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    size: cover;
+}
+.content-blog-one{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.content-blog-new{
+    display: flex ;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.blog-item{
+    width: 33.3%;
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+.blog-item-active{
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+}
+.blog-item-active:hover{
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.12);
+}
+.my-blog{
+    display: block;
+    width: 100%;
+    float: left;
+}
+.imagme-my-blog{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.image-my-blog{
+    position: relative;
+    text-align: center !important;
+}
+.image-my-blog img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-position: center;
+    margin:0;
+    size: cover;
+}
+.date-blog{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #fff;
+    opacity: 0.95;
+    padding: 10px 20px 8px 20px;
+    font-size: 12px;
+    width: 100%;
+    color: #707070;
+}
+.date-blog .far{
+    font-size: 14px;
+    padding-right: 5px;
+}
+.date-blog b{
+    font-weight: 700;
+}
+.content-my-blog{
+    padding:25px;
+    background: #f5f6fb;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.content-my-blog-right{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.content-my-blog-right h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #252525;
+    letter-spacing: .01rem;
+}
+.content-my-blog-right a{
+    color: #252525;
+}
+.content-my-blog-right a:hover{
+    color:#f72b3f;
+}
+.summary-item-blog{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.summary-item-blog p{
+    margin: 0;
+    color: #707070;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.content-contact{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.contact-col-6{
+    width: 50%;
+    display: block;
+    float: left;
+}
+.form-group{
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    color: #252525;
+    border: none;
+}
+.form-group em{
+    color: #f72b3f;
+}
+.group_contact label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.form-control-lg{
+    border-radius: 0px !important;
+    font-size: 14px;
+    color: #252525;
+    height: 40px;
+    padding: 0px 15px;
+}
+.form-control-lg{
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    background-color: #fff;
+    background-image: none;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    border: 1px solid #EAEBF3;
+    box-shadow: none;
+    outline: none;
+}
+.content-area{
+    min-height: 100px;
+    padding: 10px 15px;
+    border-radius: 0px !important;
+    resize: none;
+}
+.group_contact-btn{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    min-height: 1px;
+}
+.btn-lienhe{
+    border:none;
+    outline: none;
+    border-radius: 3px;
+    padding:10px 30px;
+    background: #f72b3f;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+}
+.btn-lienhe:hover{
+    background: #fff;
+    border: 1px solid #f72b3f;
+    color: #f72b3f;
+}
+.left-contact{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

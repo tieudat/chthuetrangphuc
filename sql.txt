@@ -1,0 +1,35 @@
+create table shoes(
+id int auto_increment,
+nameShoes Nvarchar(50),
+giaTien int,
+loai nvarchar(50),
+linkImg varchar(255),
+thuongHieu varchar(50),
+primary key(id));
+create table user(
+id int auto_increment,
+username varchar(50),
+password varchar(255),
+fullname nvarchar(255),
+position nvarchar(255),
+sdt varchar(10),
+address nvarchar(255),
+email varchar(50),
+primary key(id));
+create table bill(
+id int auto_increment,
+ngay date,
+trangThai nvarchar(50),
+diaChiNhan nvarchar(255),
+sdtNhan varchar(10),
+id_user int,
+primary key(id),
+foreign key(id_user) references user(id));
+create table detailbill(
+id int auto_increment,
+soluong int,
+id_user int,
+id_bill int,
+primary key(id),
+foreign key(id_user) references user(id),
+foreign key(id_bill) references bill(id));
